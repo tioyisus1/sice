@@ -55,5 +55,12 @@ La página web usa AJAX para actualizar la información sin necesidad de recarga
 ### **Ejemplo de Código en php + JavaScript**  
 Descargar el archivo de nombre estado.php
 
-## **8. Conclusión**  
+## **8. Conexiones fisicas**
+GND->GND
+VCC->VIN
+OUT->D13
+
+![esp32](https://github.com/user-attachments/assets/b17cd97e-ef37-4ac3-a977-96d9c974b0ce)
+
+## **9. Conclusión**  
 Este sistema ofrece una solución eficiente y en tiempo real para monitorear la disponibilidad de una persona a través del estado de la puerta. Además, se puede implementar en un servidor local utilizando **XAMPP**, lo que facilita su uso y pruebas sin depender de un servidor en la nube.  
