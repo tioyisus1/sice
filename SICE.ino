@@ -55,7 +55,7 @@ void loop() {
 
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
-    String url = String(serverName) + "?estado=" + estado + "&id=5"; // Se manda el estado y el ID del sensor
+    String url = String(serverName) + "?estado=" + estado + "&id=1"; // Se manda el estado y el ID del sensor - CAMBIAR EL "1" POR EL NUMERO DEL SENSOR QUE VA A CONFIGURAR
 
     http.begin(url); // Iniciar la solicitud HTTP
     int httpCode = http.GET(); // Enviar la solicitud GET
